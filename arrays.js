@@ -27,6 +27,7 @@ fruits.unshift('papaya'); //adds elements at the begining
 console.log(fruits);
 
 
+
 // femoving elements
 fruits.pop(); // remove elements frome the endd
 fruits.shift();  //removes element from the begining
