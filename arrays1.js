@@ -15,6 +15,9 @@ console.log(movies.at(3));
 movies[4]='SSS';    //replace index name
 console.log(movies);
 
+movies[6]='Awarapan';
+console.log(movies);
+
 console.log(movies .at(-3));
 
 //slicing
