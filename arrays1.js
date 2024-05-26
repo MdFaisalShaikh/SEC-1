@@ -18,6 +18,9 @@ console.log(movies);
 movies[6]='Awarapan';
 console.log(movies);
 
+movies[6]='Batmans';
+console.log(movies);
+
 console.log(movies .at(-3));
 
 //slicing
