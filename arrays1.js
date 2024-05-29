@@ -18,7 +18,7 @@ console.log(movies);
 movies[6]='Awarapan';
 console.log(movies);
 
-movies[6]='Batmans';
+movies[6]='Batman';
 console.log(movies);
 
 console.log(movies .at(-3));
