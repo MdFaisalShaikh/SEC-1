@@ -41,10 +41,11 @@ console.log(smartphone);
 
 const smartphonelist = [
     { brand: 'iphone', model: 'i15', price: 69000, colors: ['black','white', 'gray'] },
-    { brand: 'samsung', model: 's23', price: 119000, colors: ['red', 'blue'] },
+    { brand: 'samsung', model: 's23', price: 119000, colors: ['red', 'blue','black'] },
     { brand: 'vivo', model: 'v23', price: 29000, colors: ['yellow', 'green'] },
     { brand: 'oppo', model: 'reno', price: 39000, colors: ['purpal', 'white'] },
-    { brand: 'oneplus', model: 'nord', price: 25000, colors: ['red','orange', 'pink'] }
+    { brand: 'oneplus', model: 'nord', price: 25000, colors: ['red','orange', 'pink'] },
+    { brand: 'samsung', model: 's24', price: 129000, colors: ['white', 'black'] },
 ];
 
 
@@ -64,5 +65,14 @@ console.log(smartphonelist[3].price);
 //filter all smartphones with lower then 30000
 
 const budgetphones=smartphonelist.filter((phone)=>{return phone.price});
-
+console.log('-------');
 console.log(budgetphones);
+
+//filter all smartphones with brand 'samsung'
+
+const samsungphones =smartphonelist.filter((phone)=> {return phone.brand ==='samsung'});
+console.log(samsungphones);
+
+//filter all smartphone with color 'black'
+
+const colorphones=smartphonelist.filter((phone)=>{return phone.colors.includes('black')});
