@@ -76,3 +76,15 @@ console.log(samsungphones);
 //filter all smartphone with color 'black'
 
 const colorphones=smartphonelist.filter((phone)=>{return phone.colors.includes('black')});
+
+const brand=smartphonelist.map((phone)=>{return phone.brand});
+
+console.log(Array.from(new Set(brand)));
+
+const price=smartphonelist.map((phone)=>{return phone.price *0.9});
+console.log(price);
+
+//['samsung s23','iphone i15','oneplus nord','vivo v23','oppo reno','samsung s24']
+
+const phonenames=smartphonelist.map ((phone)=>{return `${phone.brand} ${phone.model}`})
+console.log(phonenames);
